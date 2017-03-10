@@ -1,0 +1,25 @@
+{
+  "name": "helloreact",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "fs-extra": "^2.0.0",
+    "gh-pages": "^0.12.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "react-scripts": "0.9.5",
+    "serve": "^5.0.2",
+    "slimerjs": "^0.10.3"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "homepage": "https://ericvicenti.github.io/helloreact",
+  "scripts": {
+    "start": "react-scripts start",
+    "buildbasic": "react-scripts build",
+    "build": "react-scripts build && ./buildawesome.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
